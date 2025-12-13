@@ -1,13 +1,13 @@
-Item;Description;Quantity;Unit Price ($);Total Price ($);URL;Running Total Price (with Tax);
-Anycubic Kobra 3 V2;"FDM 3D Printer for all custom robot body and parts.";1;$247.00;$247.00;https://store.anycubic.com/products/kobra-3-v2?variant=45612732743842;$247.00;
-ESP31 TYPE-C;"Main microcontroller (MicroPython); controls motors, display, and Wi-Fi.";1;$7.44;$7.44;https://aliexpress.us/item/1005009722748909.html;$254.44;
-N20 motor;"Compact high-torque motors for robot locomotion and movement.";2;$6.40;$12.80;https://aliexpress.us/item/1005005884035870.html;$267.24;
-L298N DC;"Motor driver module for controlling speed and direction of motors.";1;$2.34;$2.34;https://aliexpress.us/item/1005007619459803.html;$269.58;
-MG90S;"Metal gear servos for expressive pan/tilt head movement.";1;$4.07;$4.07;https://aliexpress.us/item/1005008626768357.html;$273.65;
-OLED Display;"Two 0.96"" screens for animated, expressive eyes and feedback.";2;$1.84;$3.68;https://aliexpress.us/item/1005008738379315.html;$277.33;
-WS2812B;"Addressable RGB LED strip for status and emotional lighting.";1;$4.30;$4.30;https://aliexpress.us/item/2036819167.html;$281.63;
-LiPo Battery 7.4V;"Rechargeable power source (1000mAh, XT60) for untethered operation.";1;$18.17;$18.17;https://aliexpress.us/item/4000173875886.html;$299.80;
-TP4056;"Secure charging module (USB-C) for the robot's docking station.";1;$1.75;$1.75;https://aliexpress.us/item/4001203626107.htm;$301.55;
-INMP441;"Digital I2S microphone module for high-quality audio capture.";1;$3.17;$3.17;https://aliexpress.us/item/1005009648491391.html;$304.72;
-Soldering Station;"High-quality station with temperature control for reliable electronic connections.";1;$48.65;$48.65;https://www.amazon.com/dp/B0CXHL2D84;$353.37;
-Total;;;;$353.37;;$353.37;
+Item,Description,Quantity,Unit Price ($),Total Price ($),URL,Running Total Price (with Tax)
+Anycubic Kobra 3 V2,"FDM 3D Printer for all custom robot body and parts.",1,$247.00,$247.00,https://store.anycubic.com/products/kobra-3-v2?variant=45612732743842,$247.00
+ESP31 TYPE-C,"Main microcontroller (MicroPython); controls motors, display, and Wi-Fi.",1,$7.44,$7.44,https://aliexpress.us/item/1005009722748909.html,$7.44
+N20 motor,"Compact high-torque motors for robot locomotion and movement.",2,$6.40,$12.80,https://aliexpress.us/item/1005005884035870.html,$12.80
+L298N DC,"Motor driver module for controlling speed and direction of motors.",1,$2.34,$2.34,https://aliexpress.us/item/1005007619459803.html,$2.34
+MG90S,"Metal gear servos for expressive pan/tilt head movement.",1,$4.07,$4.07,https://aliexpress.us/item/1005008626768357.html,$4.07
+OLED Display,"Two 0.96"" screens for animated, expressive eyes and feedback.",2,$1.84,$3.68,https://aliexpress.us/item/1005008738379315.html,$3.68
+WS2812B,"Addressable RGB LED strip for status and emotional lighting.",1,$4.30,$4.30,https://aliexpress.us/item/2036819167.html,$4.30
+LiPo Battery 7.4V,"Rechargeable power source (1000mAh, XT60) for untethered operation.",1,$18.17,$18.17,https://aliexpress.us/item/4000173875886.html,$18.17
+TP4056,"Secure charging module (USB-C) for the robot's docking station.",1,$1.75,$1.75,https://aliexpress.us/item/4001203626107.htm,$1.75
+INMP441,"Digital I2S microphone module for high-quality audio capture.",1,$3.17,$3.17,https://aliexpress.us/item/1005009648491391.html,$3.17
+Soldering Station,"High-quality station with temperature control for reliable electronic connections.",1,$48.65,$48.65,https://www.amazon.com/dp/B0CXHL2D84,$48.65
+Total,,,,$353.37,,$353.37
