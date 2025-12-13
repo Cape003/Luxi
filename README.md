@@ -1,16 +1,22 @@
-# 🤖 LUXI: The AI Companion Bot (3D-Printed & Local)
+# LUXI: The AI Companion Bot (3D-Printed & Local)
 
 ## Project Overview
-
-Status: **Just an idea and some models so far**
-Funding: **Fingers crossed for a Hack Club Blueprint grant!** (Asking for $400)
-Languages: **Python, MicroPython**
 
 Luxi's gonna be a small, kinda sassy, roving robot buddy. We're printing all the parts and want it to run locally for speed and, you know, privacy.
 
 What makes Luxi cool is the way it's built. The PC handles the heavy AI lifting and talking stuff, while the ESP32 controls the robot's body in real-time kinda via Wi-Fi.
 
-### ⚙️ What it's made of
+### Why am I doing this?
+
+My project, LUXI, stems from two desires: to create something cool and tangible, and to explore electronics.
+
+It's more than just a robot; it's my playground for learning. I really want to make significant progress on the hardware side. The idea is to manage the entire robot creation cycle: from 3D design to printing, including wiring and microcontroller programming.
+
+By building Luxi, I'll learn to use a wide variety of electronic components. It's fantastic, and above all, I'm learning a ton!
+
+Luxi is a perfect platform for practicing the integration of software (Python and AI) and hardware. With this funding, I could truly transform this project into a real educational experience, creating a small, expressive, and technically advanced robot that is, frankly, incredibly interesting.
+
+### What it's made of
 
 Everything's designed to be 3D-printed to keep costs down and make the most of the printer.
 
@@ -26,7 +32,7 @@ Everything's designed to be 3D-printed to keep costs down and make the most of t
 
 * **Charging Dock:** A printed dock with a TP4056 thingy to charge the battery safely.
 
-### 💻 How it Works (Software)
+### How it Works (Software)
 
 We're planning to use a solid **WebSocket** setup to keep the PC and robot talking to each other quickly.
 
