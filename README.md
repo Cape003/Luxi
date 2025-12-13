@@ -1,57 +1,43 @@
 # 🤖 LUXI: The AI Companion Bot (3D-Printed & Local)
 
-| **Project Status** | **Funding** | **Target Languages** |
+## Project Overview
 
-|:--- |:--- | :--- |
+Status: **Just an idea and some models so far**
+Funding: **Fingers crossed for a Hack Club Blueprint grant!** (Asking for $400)
+Languages: **Python, MicroPython**
 
-| **Concept & Modelling** | **Submission Hack Club Blueprint in Progress** | **Python, MicroPython** |
+Luxi's gonna be a small, kinda sassy, roving robot buddy. We're printing all the parts and want it to run locally for speed and, you know, privacy.
 
-### ✨ Project Overview
+What makes Luxi cool is the way it's built. The PC handles the heavy AI lifting and talking stuff, while the ESP32 controls the robot's body in real-time kinda via Wi-Fi.
 
-**Luxi** is a miniature, expressive and mobile companion robot, entirely designed from **3D printed pieces**. The goal is to create a single physical terminal for an intelligent dialogue system, favouring a **local architecture** for speed and privacy.
+### ⚙️ What it's made of
 
-The originality of Luxi lies in its hybrid architecture: it separates the complex processing of **Artificial Intelligence (AI) and dialogue** (managed by a Large Language Model on a PC) from **real-time physical control** (managed by the ESP32 microcontroller via Wi-Fi).
+Everything's designed to be 3D-printed to keep costs down and make the most of the printer.
 
-### ⚙️ Technical Characteristics
+* **3D-Printed Body:** Body, wheels, and stuff are getting printed on an Anycubic Kobra 3 V2.
 
-Each structural component is designed to be custom-made, which maximises the use of 3D printing.
+* **Expressive Head:** Servos make the head turn and tilt like it's listening.
 
-* **Customised 3D Structure:** The body, chassis, engine mounts and even **functional wheels** are 3D printed, ensuring the robustness and unique aesthetics of the robot.
+* **Light-Up Eyes and Moods:**
 
-* **Expressive Control:** Head Mechanism (Pan/Tilt) controlled by servomotors to simulate listening.
+* **OLED Eyes:** Little screens show animated faces.
 
-* **Visual Feedback (Light):**
+* **Mood Light:** RGB LEDs (WS2812B) show if it's ready, listening, or talking back.
 
-* **OLED eyes:** Two screens display animated facial expressions.
+* **Charging Dock:** A printed dock with a TP4056 thingy to charge the battery safely.
 
-* **Humour Indicator:** RGB LEDs (WS2812B) signal the status (ready, listening, response).
+### 💻 How it Works (Software)
 
-* **Optimised Charging Station:** A custom 3D printed dock integrating the TP4056 module for secure charging of the LiPo battery.
+We're planning to use a solid **WebSocket** setup to keep the PC and robot talking to each other quickly.
 
-### 💻 Software Architecture 
+* **PC (Brain) - Python:**
 
-Programming will focus on establishing a stable **WebSocket** protocol for real-time communication and task decomposition between the two systems.
+* **What it does:** Runs the AI, figures out what to say and hears what you say.
 
-| System | Role | Target Language |
+* **How It Works:** Sends commands to the robot in the form of JSON.
 
-|:--- |:--- | :--- |
+* **ESP32 (Body) - MicroPython:**
 
-| **PC (Master)** | **Intelligence & Dialogue:** Executes local LLM, manages vocal recognition/synthesis. Sends action commands (JSON) to the robot. | **Standard Python** |
+* **What it does:** Gets the JSON from the PC.
 
-| **ESP32 (Client)** | **Physical Control:** Receives the JSON message from the PC, decodes it, and directly controls the engines, servos, and displays. |**MicroPython**|
-
-
-### 🎯 Next Steps (Roadmap)
-
-* [x] Finalisation of the Concept, BOM and Wiring Diagram.
-
-* [ ] **3D modelling:** Design of the Luxi body, wheels, and charging station.
-
-* [ ] Acquisition of equipment (After receipt of Blueprint funding).
-
-* [ ] Development of MicroPython and Python firmwares.
-
-* [ ] Assembly, wiring, and software integration.
-
----
-
+* **How It Works:** Moves the motors, servos, and shows stuff on the screens.
